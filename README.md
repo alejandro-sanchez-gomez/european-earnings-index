@@ -1,0 +1,1 @@
+# european-average-earnings-index
