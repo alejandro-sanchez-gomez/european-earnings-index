@@ -3,14 +3,14 @@ Check the built model using the following link:
 https://app.powerbi.com/groups/me/reports/80f6d677-44dd-4e08-a9de-7cdc4509e71b/ReportSection62969327c7b5f7f103a1?experience=power-bi
 
 ## Table of Contents
-- [Aim](#aim)
+- [About](#about)
 - [Data Source](#data-sources)
 - [Data Cleansing](#data-cleansing)
 - [Model Engineering](#model-engineering)
 - [Analysis](#analysis)
 - [Results](#results)
 
-## Aim
+## About
 The aim of this project is to determine and study the annual intra-national wealth of the different European Union countries, as well as its evolution, during the period spanning the years 2014-2022.
 
 In order to analyze it, a new index has been created called the European Earnings Index (EEI). This index adjusts the net income of the average worker with the price level of the countries that belong to the European Union. 
