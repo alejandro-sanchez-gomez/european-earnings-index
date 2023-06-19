@@ -37,6 +37,8 @@ New tables have been created in order to better analyze what factors influence o
 3. The region where the country belongs to, based on the EuroVoc’s classification. 
 Data has been combined into a single table in order to calculate the European Income Index as well as its Year-Over-Year variance. The following formula has been applied:
 
+EEI=Net Earnings*(1+(100-PLI)/100)
+
 ## Analysis
 ### EU
 At the European level, the average income currently stands at 22284.40 PPS and the total average growth since 2014 is 24%.
