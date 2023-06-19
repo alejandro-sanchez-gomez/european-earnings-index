@@ -45,7 +45,7 @@ The nations that have grown the least on average belong to Western and Southern 
 The nations that have the highest EEI value on average are the Western and Southern European nations and founded the European Union or joined at the early 2000s. 
 The nations that have the lowest EEI value on average are the Eastern and Northern European nations that joined between 1970 and 1989.
 
-### Results
+##Results
 1. At the level of nations, we can see that, with the exception of Greece, Luxembourg and Ireland, workers are experiencing economic growth.  
 2. The most successful nations on average are the Eastern and Northern European nations that joined the EU at 21st century but have not joined the Eurozone. Their average EEI value is slightly smaller than those with the highest value, but their growth value is superior than the previously mentioned. Thus, soon will outperform them on that regard.
 3. The nation that joined between at the 1970s – 1989 period are the worst performers on average in both growth and wealth.
