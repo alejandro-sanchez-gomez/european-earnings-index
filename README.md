@@ -9,6 +9,8 @@ https://app.powerbi.com/groups/me/reports/80f6d677-44dd-4e08-a9de-7cdc4509e71b/R
 - [Model Engineering](#model-engineering)
 - [Analysis](#analysis)
 - [Results](#results)
+- [Contributing](#contributing)
+- [License and Credits](#license-and-credits)
 
 ## About
 The aim of this project is to determine and study the annual intra-national wealth of the different European Union countries, as well as its evolution, during the period spanning the years 2014-2022.
@@ -49,3 +51,20 @@ The nations that have the lowest EEI value on average are the Eastern and Northe
 1. At the level of nations, we can see that, with the exception of Greece, Luxembourg and Ireland, workers are experiencing economic growth.  
 2. The most successful nations on average are the Eastern and Northern European nations that joined the EU at 21st century but have not joined the Eurozone. Their average EEI value is slightly smaller than those with the highest value, but their growth value is superior than the previously mentioned. Thus, soon will outperform them on that regard.
 3. The nation that joined between at the 1970s – 1989 period are the worst performers on average in both growth and wealth.
+
+### Contributing
+
+Contributions are welcome! Please review the contribution guidelines on how to:
+
+- Report issues
+- File pull requests
+
+### License and Credits
+
+*Copyright © 2023 [Alejandro Sánchez](https://github.com/Levantino-Engineering) (Levantino Engineering)*
+
+Licensed under the _GNU AGPLv3_, extended by a number of additional terms. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. For more information on the license please see the [LICENSE file](https://github.com/Levantino-Engineering mLICENSE.txt) accompanying this add-on. The source code is available on [GitHub](https://github.com/Levantino-Engineering/unpivot-columns-excel/blob/main/source/unpivot_columns.bas).
+
+----------------------------------------------------------
+
+Return to the [Table Of Contents](#table-of-contents)
