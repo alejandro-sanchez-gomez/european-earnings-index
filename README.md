@@ -1,5 +1,5 @@
 # European Earnings Index | Is your country really that whealty?
-Check the built model using the following link:
+The model has been built using Microsoft Excel and Power Bi. Here is the link:
 https://app.powerbi.com/groups/me/reports/80f6d677-44dd-4e08-a9de-7cdc4509e71b/ReportSection62969327c7b5f7f103a1?experience=power-bi
 
 ## Table of Contents
