@@ -12,46 +12,49 @@ The model has been built using Microsoft Excel and Power Bi.
 - [License and Credits](#license-and-credits)
 
 ## About
-The aim of this project is to determine and study the annual intra-national wealth of the different European Union countries, as well as its evolution, during the period spanning the years 2014–2022.
-
-In order to analyze it, a new index has been created called the European Earnings Index (EEI). This index adjusts the net income of the average worker with the price level of the countries that belong to the European Union. 
+The objectives of the project are the following:
+1. Create a new index to measure the annual intra-national wealth of the various EU member states.
+2. Display the data as a Dashboard.
+3. Write a report that explores the factors that influence why one country ranks higher on the index when compared to another.
 
 ## Data sources
-Data has been obtained from two indicators provided by Eurostat:
-- Net Earnings: This index determines the net earnings of the average worker by subtracting the gross earnings from income taxes and social security contributions. 
-- Price Level Index (PLI): This index determines the price level of one country relative to another in the European Union.
+Data was gathered from the following two Eurostat indicators:
+- Net Earnings: This index calculates the average worker's net earnings by deducting income taxes and social security contributions from their gross wages. 
+- Price Level Index (PLI): This index contrasts a nation's price levels with those of the other European Union member states.
 
 ## Data cleansing
-Both tables present a similar format and will be treated as follows:
-1. All rows that have nothing to do with the data to be studied have been deleted.
+Both tables have a comparable layout and will be handled as follows:
+1. All rows that don't relate to the information being studied have been deleted.
 2. Years have been converted from the column's name to row data.
-3. All data that was missing has been filled:
-3.1. Net Earnings Table: Data regarding the years 2015 and 2016 in Cyprus has been filled by distributing the growth it undergoes from 2014 to 2017 while keeping its total intact.
-3.2. Price Level Index Table: Data regarding the year 2022 has been filled by applying the simple moving average of the last 3 years.
+3. All gaps in the data have been filled:
+3.1. Net Earnings Table: Cyprus's 2015 and 2016 data has been filled in by dividing the growth it experienced from 2014 to 2017 while keeping its overall total the same.
+3.2. Price Level Index Table: The simple moving average of the previous three years was used to fill in the data for the year 2022.
 
 ## Model engineering 
-New tables have been created in order to better analyze what factors influence overall growth and prosperity. Specifically: 
-1. If the nation belongs to the Eurozone.
+To better understand what influences overall growth and prosperity, new tables have been made. 
+1. Whether the country is a member of the Eurozone.
 2. Decade of incorporation into the European Union.
-3. The region to which the country belongs, based on the EuroVoc’s classification.
-The data has been combined into a single table in order to calculate the European Income Index as well as its Year-Over-Year variance. The following formula has been applied:
+3. The region to which the nation belongs according to the EuroVoc division.
+
+The European Income Index and its Year-Over-Year variance have been determined by combining the data into a single table. The formula below has been used:
 
 ![image](https://github.com/Levantino-Engineering/european-earnings-index/assets/103794823/b476a995-9d40-45e1-838f-5d2d39438aea)
 
 ## Analysis
 ### EU
-At the European level, the average income currently stands at 22284.40 PPS, and the total average growth since 2014 is 24%.
+At the European level, the current average income is 22284.40 PPS, representing an overall average growth of 24% since 2014.
 ### Growth
-The nations that have grown the most on average belong to Eastern and Northern Europe, they do not belong to the Eurozone, and they have been incorporated into the EU in the 21st century.
-The nations that have grown the least on average belong to Western and Southern Europe, they belong to the Eurozone and joined between the years 1970 and 1989.
+The countries that have experienced the greatest average growth are located in Eastern and Northern Europe; they are not members of the Eurozone and they joined the EU in the twenty-first century.
+The countries that have experienced the least average growth are located in Western and Southern Europe; they are members of the Eurozone and have joined the union between 1970 and 1989.
 ### Wealth
-The nations that have the highest EEI value on average are the Western and Southern European nations that founded the European Union or joined in the early 2000s.
-The nations that have the lowest EEI value on average are the Eastern and Northern European nations that joined between 1970 and 1989.
+The Western and Southern European countries that either co-founded the European Union or joined in the early 2000s have the highest average EEI values.
+The Eastern and Northern European countries that joined between 1970 and 1989 have the lowest average EEI values.
 
 ## Results
-1. At the level of nations, we can see that, with the exception of Greece, Luxembourg and Ireland, workers are experiencing economic growth.
-2. The most successful nations on average are the Eastern and Northern European nations that joined the EU in the 21st century but have not joined the Eurozone. Their average EEI value is slightly smaller than those with the highest value, but their growth value is superior to those previously mentioned. Thus, soon they will outperform them in that regard.
-3. The nations that joined between the years 1970 and 1989 are the worst performers on average in both growth and wealth.
+1. At the national level, we can see that workers are benefiting from economic growth, with the exception of Greece, Luxembourg, and Ireland.
+2. The Western and Southern European countries that either co-founded the European Union or joined in the early 2000s are the most prosperous on average.
+3. The Eastern and Northern European countries that joined between 1970 and 1989 have the highest growth value and their prosperity is slightly lower than those who have the highest. Consequently, they will soon outperform them in that respect.
+4. The countries that joined between 1970 and 1989 have the worst growth and prosperity value on average.
 
 ### Contributing
 
