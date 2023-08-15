@@ -3,9 +3,8 @@ The index calculates the average annual purchasing power of all EU Member States
 
 ## Table of Contents
 - [About](#about)
-- [Sources](#sources)
+- [Index Formula](#index-formula)
 - [Wrangling the Data](#wrangling-the-data)
-- [Building the Model](#building-the-model)
 - [Results](#results)
 - [Summary](#summary)
 - [Contributing](#contributing)
@@ -13,32 +12,28 @@ The index calculates the average annual purchasing power of all EU Member States
 
 ## About
 The objectives of the project are the following:
-1. Create a new index that measures the average annual purchasing power of all EU Member States 
-2. Develop an interactive dashboard to display all data and to make custom analysis.
+1. Create a new index that measures the average annual purchasing power of all EU Member States and its Year-Over-Year variance.
+2. Develop an interactive dashboard that the data in order to make custom analysis.
 3. Write a report that explores the factors that influence why one country has a higher value when compared to another.
 
-## Sources
-Data was gathered from the following two Eurostat indicators:
-- [Net Earnings](https://ec.europa.eu/eurostat/cache/metadata/en/earn_net_esms.htm): This index calculates the average worker's net earnings by deducting income taxes and social security contributions from their gross wages. 
-- [Price Level Index (PLI)](https://ec.europa.eu/eurostat/cache/metadata/en/prc_ppp_esms.htm): This index contrasts a nation's price levels with those of the other European Union member states by dividing PPPs by their current nominal exchange rate. 
+## Index Formula
+The index has been created from two Eurostat indicators using the following formula:
+EEI = NE * - PLI / 100
+Where:
+- [Net Earnings (NE)](https://ec.europa.eu/eurostat/cache/metadata/en/earn_net_esms.htm): This index calculates the average worker's net earnings by deducting income taxes and social security contributions from their gross wages. 
+- [Price Level Index (PLI)](https://ec.europa.eu/eurostat/cache/metadata/en/prc_ppp_esms.htm): This index contrasts a nation's price levels with those of the other European Union member states by dividing PPPs by their current nominal exchange rate.
 
 ## Wrangling the Data
 Both tables have a comparable layout and will be handled as follows:
 1. All rows that don't relate to the information being studied have been deleted.
 2. Years have been converted from the column's name to row data.
 3. All gaps in the data have been filled:
-3.1. Net Earnings Table: Cyprus's 2015 and 2016 data has been filled in by dividing the growth it experienced from 2014 to 2017 while keeping its overall total the same.
-3.2. Price Level Index Table: The simple moving average of the previous three years was used to fill in the data for the year 2022.
-
-## Building the Model
+- Net Earnings Table: Cyprus's 2015 and 2016 data has been filled in by dividing the growth it experienced from 2014 to 2017 while keeping its overall total the same.
+- Price Level Index Table: The simple moving average of the previous three years was used to fill in the data for the year 2022.
 To better understand what influences overall growth and prosperity, new tables have been made. 
 1. Whether the country is a member of the Eurozone.
 2. Decade of incorporation into the European Union.
 3. The region to which the nation belongs according to the EuroVoc division.
-
-The European Income Index and its Year-Over-Year variance have been determined by combining the data into a single table. The formula below has been used:
-
-![image](https://github.com/Levantino-Engineering/european-earnings-index/assets/103794823/b476a995-9d40-45e1-838f-5d2d39438aea)
 
 ## Results
 ### EU
