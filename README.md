@@ -1,5 +1,5 @@
-# European Earnings Index | Is your country really that wealthy?
-The model has been built using Microsoft Excel and Power Bi.
+# European Earnings Index | Average Annual Purchasing Power of all EU Member States
+The index calculates the average annual purchasing power of all EU Member States by using the average net income of a worker from a given country and its price level index relative to the other member states. Aditionally, an interactive dashboard has been developed using Microsoft Power Bi.
 
 ## Table of Contents
 - [About](#about)
@@ -13,14 +13,14 @@ The model has been built using Microsoft Excel and Power Bi.
 
 ## About
 The objectives of the project are the following:
-1. Create a new index to measure the annual intra-national wealth of the various EU member states.
-2. Display the data as a Dashboard.
-3. Write a report that explores the factors that influence why one country ranks higher on the index when compared to another.
+1. Create a new index that measures the average annual purchasing power of all EU Member States 
+2. Develop an interactive dashboard to display all data and to make custom analysis.
+3. Write a report that explores the factors that influence why one country has a higher value when compared to another.
 
 ## Data sources
 Data was gathered from the following two Eurostat indicators:
 - Net Earnings: This index calculates the average worker's net earnings by deducting income taxes and social security contributions from their gross wages. 
-- Price Level Index (PLI): This index contrasts a nation's price levels with those of the other European Union member states.
+- [Price Level Index (PLI)](https://ec.europa.eu/eurostat/cache/metadata/en/prc_ppp_esms.htm): This index contrasts a nation's price levels with those of the other European Union member states by dividing PPPs by their current nominal exchange rate. 
 
 ## Data cleansing
 Both tables have a comparable layout and will be handled as follows:
