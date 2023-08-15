@@ -1,5 +1,5 @@
 # European Earnings Index | Average Annual Purchasing Power of all EU Member States
-The index calculates the average annual purchasing power of all EU Member States by using the average net income of a worker from a given country and its price level index relative to the other member states. Aditionally, an interactive dashboard has been developed using Microsoft Power Bi.
+The index calculates the average annual purchasing power of all EU Member States by using the average net income of a worker from a given country and its price level index relative to the other member states. Additionally, an interactive dashboard has been developed using Microsoft Power Bi.
 
 ## Table of Contents
 - [About](#about)
