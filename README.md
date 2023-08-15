@@ -18,7 +18,7 @@ The objectives of the project are the following:
 
 ## Index Formula
 The index has been created from two Eurostat indicators using the following formula:
-[image](https://github.com/Levantino-Engineering/european-earnings-index/blob/main/Model/Formula.png)
+![](https://github.com/Levantino-Engineering/european-earnings-index/blob/main/Model/Formula.png)
 Where:
 - [Net Earnings (NE)](https://ec.europa.eu/eurostat/cache/metadata/en/earn_net_esms.htm): This index calculates the average worker's net earnings by deducting income taxes and social security contributions from their gross wages. 
 - [Price Level Index (PLI)](https://ec.europa.eu/eurostat/cache/metadata/en/prc_ppp_esms.htm): This index contrasts a nation's price levels with those of the other European Union member states by dividing PPPs by their current nominal exchange rate.
